@@ -1,0 +1,1891 @@
+@media screen and (min-width:1536px) and (max-width:1720px){
+    /*메인페이지*/
+    #main_page .main_text{
+        right: 99px;
+    }
+    /*//메인페이지*/
+    /*md페이지*/
+    .md_list{
+        grid-template-columns: 350px 350px 350px 350px;
+    }
+    .md img:nth-child(1){
+        width: 350px;
+        height: 350px;
+    }
+    .md .heart{
+        top: 305px;
+    }
+    .md .redheart{
+        top: 306px;
+    }
+    /*//md페이지*/
+    /*가이드페이지*/
+    #guidebook_page h2::before{
+        bottom: 350px;
+    }
+    .gd:nth-child(1) .text{
+        left: 10%;
+    }
+    .gd:nth-child(2) .text{
+        left: 18%;
+    }
+    .gd:nth-child(3) .text{
+        left: 20%;
+    }
+    .gd:nth-child(4) .text{
+        left: 20%;
+    }
+    /*//가이드페이지*/
+    /*여행*/
+    .trip_list>li{
+        width: 95%;
+    }
+    /*//여행*/
+}
+
+@media screen and (min-width:1400px) and (max-width:1535px) {
+    /*메인페이지*/
+    #main_page .main_text{
+        position: static;
+        text-align: center;
+        line-height: 90px;
+        margin-top: 450px;
+        padding-left: 80px;
+    }
+    #main_page .main_text br{
+        display: block !important;
+    }
+    /*//메인페이지*/
+    /*배너*/
+    .banner_outer{
+        width: 1100px;
+        height: 254px;
+    }
+    .banner_list{
+        width: calc(1100px * 3);
+    }
+    .banner:nth-child(1) .banner_text{
+        top: 70px;
+        right: 32px;
+    }
+    .banner:nth-child(1) .banner_text .title{
+        margin-bottom: 30px;
+    }
+    .banner:nth-child(2) .banner_text{
+        top: 70px;
+    }
+    .banner:nth-child(2) .move{
+        right: 360px;
+    }
+    .banner:nth-child(3) .banner_text{
+        top: 70px;
+        left: 300px;
+    }
+    .banner:nth-child(3) .move{
+        bottom: 66px;
+        right: 510px;
+    }
+    .button_list{
+        width: 1320px;
+    }
+    /*//배너*/
+    /*md페이지*/
+    .md_list{
+        grid-template-columns: 300px 300px 300px 300px;
+    }
+    .md img:nth-child(1){
+        width: 300px;
+        height: 300px;
+    }
+    .md .heart{
+        top: 260px;
+    }
+    .md .redheart{
+        top: 261px;
+    }
+    /*//md페이지*/
+    /*가이드페이지*/
+    #guidebook_page h2::before{
+        bottom: 350px;
+    }
+    .gd{
+        margin: 0 15px;
+    }
+    .gd:nth-child(1) .text{
+        left: 3%;
+    }
+    .gd:nth-child(2) .text{
+        left: 15%;
+    }
+    .gd:nth-child(3) .text{
+        left: 17%;
+    }
+    .gd:nth-child(4) .text{
+        left: 16%;
+    }
+    /*//가이드페이지*/
+    /*키워드*/
+    .keyword_list>li{
+        margin: 30px;
+    }
+    /*//키워드*/
+    /*랭킹*/
+    #rank_page{
+        margin: 0 30px;
+    }
+    .rank_list{
+        margin-left: 50px;
+    }
+    /*//랭킹*/
+    /*여행*/
+    #trip_page{
+        margin: 0 30px;
+    }
+    .trip_list>li>a .heart{
+        right: -24px;
+    }
+    /*//여행*/
+}
+
+@media screen and (min-width:1240px) and (max-width:1399px) {
+    /*menu*/
+    #menu>li{
+        padding: 0 15px;
+    }
+    /*//menu*/
+    /*메인페이지*/
+    #main_page .main_text{
+        position: static;
+        text-align: center;
+        line-height: 90px;
+        margin-top: 450px;
+        padding-left: 80px;
+    }
+    #main_page .main_text br{
+        display: block !important;
+    }
+    /*//메인페이지*/
+    /*배너*/
+    .banner_outer{
+        width: 1000px;
+        height: 230px;
+    }
+    .banner_list{
+        width: calc(1000px * 3);
+    }
+    .banner_text .title{
+        font-size: 1.875em;
+    }
+    .banner:nth-child(1) .banner_text{
+        top: 70px;
+        right: 45px;
+    }
+    .banner:nth-child(1) .banner_text .title{
+        margin-bottom: 30px;
+    }
+    .banner:nth-child(1) .move{
+        bottom: 20px;
+        right: 20px;
+    }
+    .banner:nth-child(2) .banner_text{
+        top: 70px;
+    }
+    .banner:nth-child(2) .move{
+        right: 320px;
+        bottom: 20px;
+    }
+    .banner:nth-child(3) .banner_text{
+        top: 70px;
+        left: 275px;
+    }
+    .banner:nth-child(3) .move{
+        bottom: 50px;
+        right: 480px;
+    }
+    .button_list{
+        width: 1210px;
+    }
+    /*//배너*/
+    /*md페이지*/
+    .md_list{
+        grid-template-columns: 300px 300px 300px;
+    }
+    .md img:nth-child(1){
+        width: 300px;
+        height: 300px;
+    }
+    .md .heart{
+        top: 250px;
+    }
+    .md .redheart{
+        top: 251px;
+    }
+    /*//md페이지*/
+    /*가이드페이지*/
+    #guidebook_page h2::before{
+        height: 200px;
+        bottom: 350px;
+    }
+    .gd{
+        margin: 0 15px;
+    }
+    .gd:nth-child(1) .text{
+        left: 7%;
+    }
+    .gd:nth-child(2) .text{
+        left: 15%;
+    }
+    .gd:nth-child(3) .text{
+        left: 17%;
+    }
+    .gd:nth-child(4) .text{
+        left: 16%;
+    }
+    .gd .title{
+        font-size: 1.875em;
+        line-height: 36px;
+    }
+    .gd .sub{
+        font-size: 1.25em;
+        margin-top: 13px;
+    }
+    /*//가이드페이지*/
+    /*키워드*/
+    .keyword_list>li{
+        width: 185px;
+        margin: 30px;
+    }
+    /*//키워드*/
+    /*스토리페이지*/
+    #story_page .more{
+        margin-right: 40px;
+    }
+    /*//스토리페이지*/
+    /*랭킹*/
+    #rank_page{
+        margin: 0 30px;
+    }
+    .rheader{
+        display: block;
+        text-align: center;
+    }
+    .rheader .rankmenu_list{
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .rmain{
+        height: 700px;
+    }
+    .rank_list{
+        padding: 20px 0;
+        margin-left: 50px;
+    }
+    /*//랭킹*/
+    /*여행*/
+    #trip_page{
+        margin: 0 20px;
+    }
+    .trip_list>li>a .heart{
+        right: -75px;
+    }
+    #trip_page .more{
+        right: 0;
+    }
+    /*//여행*/
+    /*싱싱튜브*/
+    .youtube_list .media img:nth-child(3){
+        width: 60px;
+    }
+    #youtube_page .more{
+        margin-right: 40px;
+    }
+    /*//싱싱튜브*/
+    /*footer*/
+    footer{
+        padding: 80px 100px 0 100px;
+    }
+    .ficon{
+        right: 100px;
+    }
+    /*//footer*/
+}
+
+@media screen and (min-width:1180px) and (max-width:1239px){
+    body{
+        font-size: 15px;
+    }
+    /*header*/
+    header{
+        height: 120px;
+    }
+    .logo{
+        left: 50px;
+    }
+    .logo img{
+        width: 190px;
+    }
+    #h_icon{
+        right: 35px;
+    }
+    #h_icon h2 a img{
+        padding: 0 15px;
+    }
+    #menu>li{
+        padding: 0 10px;
+    }
+    /*//header*/
+    /*sidemenu*/
+    .searchbox{
+        width: 300px;
+    }
+    .searchbox input[type="search"]{
+        width: 240px;
+    }
+    #s_menu{
+        width: 400px;
+        padding: 30px;
+    }
+    .close{
+        width: 20px;
+        height: 20px;
+    }
+    .s_menu_list{
+        margin: 50px 30px;
+    }
+    .s_menu_list>li>a{
+        padding: 10px 5px;
+    }
+    .s_menu_list>li:nth-child(2){
+        margin-bottom: 30px;
+    }
+    .s_menu_list>li:nth-child(1),
+    .s_menu_list>li:nth-child(3),
+    .s_menu_list>li:nth-child(4),
+    .s_menu_list>li:nth-child(5),
+    .s_menu_list>li:nth-child(6),
+    .s_menu_list>li:nth-child(7){
+        margin-bottom: 5px;
+    }
+    /*//sidemenu*/
+    /*메인페이지*/
+    #main_page{
+        height: auto;
+    }
+    #main_page .main_text{
+        position: static;
+        text-align: center;
+        line-height: 90px;
+        margin: 400px 0;
+        padding-left: 80px;
+    }
+    #main_page .main_text br{
+        display: block !important;
+    }
+    /*//메인페이지*/
+    /*배너*/
+    .banner_outer{
+        width: 850px;
+        height: 194px;
+    }
+    .banner_list{
+        width: calc(850px * 3);
+    }
+    .banner_text .title{
+        font-size: 1.66666em;
+    }
+    .banner_text .sub{
+        font-size: 1.33333em;
+    }
+    .banner .move{
+        font-size: 1em;
+    }
+    .banner:nth-child(1) .banner_text{
+        top: 60px;
+        right: 45px;
+    }
+    .banner:nth-child(1) .banner_text .title{
+        margin-bottom: 20px;
+    }
+    .banner:nth-child(1) .move{
+        width: 130px;
+        height: 44px;
+        bottom: 20px;
+        right: 20px;
+        padding-top: 16px;
+        padding-left: 14px;
+    }
+    .banner:nth-child(2) .banner_text{
+        top: 60px;
+        left: 133px;
+    }
+    .banner:nth-child(2) .banner_text .title{
+        margin-bottom: 20px;
+    }
+    .banner:nth-child(2) .move{
+        width: 180px;
+        height: 44px;
+        right: 275px;
+        bottom: 20px;
+        padding-top: 16px;
+        padding-left: 13px;
+    }
+    .banner:nth-child(3) .banner_text{
+        top: 60px;
+        left: 250px;
+    }
+    .banner:nth-child(3) .move{
+        width: 143px;
+        height: 44px;
+        bottom: 37px;
+        right: 376px;
+        padding-top: 17px;
+        padding-left: 14px;
+    }
+    .button_list{
+        width: 1050px;
+    }
+    /*//배너*/
+    /*md페이지*/
+    .md_list{
+        grid-template-columns: 300px 300px 300px;
+    }
+    .md img:nth-child(1){
+        width: 300px;
+        height: 300px;
+    }
+    .md .heart{
+        top: 250px;
+    }
+    .md .redheart{
+        top: 251px;
+    }
+    /*//md페이지*/
+    /*가이드페이지*/
+    #guidebook_page h2::before{
+        height: 200px;
+        bottom: 350px;
+    }
+    .gd{
+        margin: 0 15px;
+    }
+    .gd .text{
+        bottom: 50px;
+    }
+    .gd:nth-child(1) .text{
+        left: 7%;
+    }
+    .gd:nth-child(2) .text{
+        left: 15%;
+    }
+    .gd:nth-child(3) .text{
+        left: 17%;
+    }
+    .gd:nth-child(4) .text{
+        left: 16%;
+    }
+    .gd .title{
+        font-size: 1.875em;
+        line-height: 36px;
+    }
+    .gd .sub{
+        font-size: 1.25em;
+        margin-top: 13px;
+    }
+    /*//가이드페이지*/
+    /*키워드*/
+    .keyword_list>li{
+        width: 185px;
+        margin: 30px;
+    }
+    /*//키워드*/
+    /*스토리페이지*/
+    #story_page .more{
+        margin-right: 40px;
+    }
+    .story_list{
+        width: 90%;
+    }
+    .story_list a:nth-child(4){
+        display: none;
+    }
+    /*//스토리페이지*/
+    /*랭킹*/
+    #rank_page{
+        margin: 0 30px;
+    }
+    .rheader{
+        display: block;
+        text-align: center;
+    }
+    .rheader .rankmenu_list{
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .rmain{
+        height: 668px;
+    }
+    .rank_list{
+        padding: 20px 0;
+        margin-left: 0px;
+    }
+
+    /*//랭킹*/
+    /*여행*/
+    #trip_page{
+        margin: 0 20px;
+    }
+    .trip_list>li>a .heart{
+        right: -75px;
+    }
+    #trip_page .more{
+        right: 0;
+    }
+    /*//여행*/
+    /*싱싱튜브*/
+    .youtube_list .media img:nth-child(3){
+        width: 60px;
+    }
+    #youtube_page .more{
+        margin-right: 40px;
+    }
+    /*//싱싱튜브*/
+    /*footer*/
+    footer{
+        padding: 80px 100px 0 100px;
+    }
+    .ficon{
+        right: 100px;
+    }
+    /*//footer*/
+    /*top*/
+    .top{
+        bottom: 50px;
+        right: 50px;
+    }
+    /*//top*/
+}
+
+@media screen and (min-width:1024px) and (max-width:1179px){
+    body{
+        font-size: 15px;
+    }
+    /*header*/
+    header{
+        height: 120px;
+    }
+    .logo{
+        left: 50px;
+    }
+    .logo img{
+        width: 190px;
+    }
+    #h_icon{
+        right: 35px;
+    }
+    #h_icon h2 a img{
+        padding: 0 15px;
+    }
+    #menu>li{
+        padding: 0 10px;
+    }
+    /*//header*/
+    /*sidemenu*/
+    .searchbox{
+        width: 300px;
+    }
+    .searchbox input[type="search"]{
+        width: 240px;
+    }
+    #s_menu{
+        width: 400px;
+        padding: 30px;
+    }
+    .close{
+        width: 20px;
+        height: 20px;
+    }
+    .s_menu_list{
+        margin: 50px 30px;
+    }
+    .s_menu_list>li>a{
+        padding: 10px 5px;
+    }
+    .s_menu_list>li:nth-child(2){
+        margin-bottom: 30px;
+    }
+    .s_menu_list>li:nth-child(1),
+    .s_menu_list>li:nth-child(3),
+    .s_menu_list>li:nth-child(4),
+    .s_menu_list>li:nth-child(5),
+    .s_menu_list>li:nth-child(6),
+    .s_menu_list>li:nth-child(7){
+        margin-bottom: 5px;
+    }
+    /*//sidemenu*/
+    /*메인페이지*/
+    #main_page{
+        height: auto;
+    }
+    #main_page .main_text{
+        position: static;
+        text-align: center;
+        line-height: 90px;
+        margin: 400px 0;
+        padding-left: 80px;
+    }
+    #main_page .main_text br{
+        display: block !important;
+    }
+    /*//메인페이지*/
+    /*배너*/
+    .banner_outer{
+        width: 850px;
+        height: 194px;
+    }
+    .banner_list{
+        width: calc(850px * 3);
+    }
+    .banner_text .title{
+        font-size: 1.66666em;
+    }
+    .banner_text .sub{
+        font-size: 1.33333em;
+    }
+    .banner .move{
+        font-size: 1em;
+    }
+    .banner:nth-child(1) .banner_text{
+        top: 60px;
+        right: 45px;
+    }
+    .banner:nth-child(1) .banner_text .title{
+        margin-bottom: 20px;
+    }
+    .banner:nth-child(1) .move{
+        width: 130px;
+        height: 44px;
+        bottom: 20px;
+        right: 20px;
+        padding-top: 16px;
+        padding-left: 14px;
+    }
+    .banner:nth-child(2) .banner_text{
+        top: 60px;
+        left: 133px;
+    }
+    .banner:nth-child(2) .banner_text .title{
+        margin-bottom: 20px;
+    }
+    .banner:nth-child(2) .move{
+        width: 180px;
+        height: 44px;
+        right: 275px;
+        bottom: 20px;
+        padding-top: 16px;
+        padding-left: 13px;
+    }
+    .banner:nth-child(3) .banner_text{
+        top: 60px;
+        left: 250px;
+    }
+    .banner:nth-child(3) .move{
+        width: 143px;
+        height: 44px;
+        bottom: 37px;
+        right: 376px;
+        padding-top: 17px;
+        padding-left: 14px;
+    }
+    .button_list{
+        width: 1050px;
+    }
+    /*//배너*/
+    /*md페이지*/
+    .md_list{
+        grid-template-columns: 300px 300px 300px;
+    }
+    .md img:nth-child(1){
+        width: 300px;
+        height: 300px;
+    }
+    .md .heart{
+        top: 250px;
+    }
+    .md .redheart{
+        top: 251px;
+    }
+    /*//md페이지*/
+    /*가이드페이지*/
+    #guidebook_page h2::before{
+        height: 200px;
+        bottom: 350px;
+    }
+    .gd{
+        margin: 0 15px;
+    }
+    .gd .text{
+        bottom: 50px;
+    }
+    .gd:nth-child(1) .text{
+        left: 7%;
+    }
+    .gd:nth-child(2) .text{
+        left: 15%;
+    }
+    .gd:nth-child(3) .text{
+        left: 17%;
+    }
+    .gd:nth-child(4) .text{
+        left: 16%;
+    }
+    .gd .title{
+        font-size: 1.875em;
+        line-height: 36px;
+    }
+    .gd .sub{
+        font-size: 1.25em;
+        margin-top: 13px;
+    }
+    /*//가이드페이지*/
+    /*키워드*/
+    .keyword_list>li{
+        width: 185px;
+        margin: 30px;
+    }
+    /*//키워드*/
+    /*스토리페이지*/
+    #story_page .more{
+        margin-right: 40px;
+    }
+    .story_list{
+        width: 90%;
+    }
+    .story_list a:nth-child(4){
+        display: none;
+    }
+    /*//스토리페이지*/
+    #rank_trip_page{
+        display: block;
+        height: auto;
+    }
+    /*랭킹*/
+    #rank_page{
+        margin: 0 30px;
+    }
+    .rheader{
+        display: flex;
+        text-align: center;
+    }
+    .rmain{
+        height: 828px;
+    }
+    .rank_list{
+        padding: 40px 0;
+        margin-left: 300px;
+    }
+    .rank_list a{
+        margin-left: 80px;
+    }
+    /*//랭킹*/
+    /*여행*/
+    #trip_page{
+        height: 1000px;
+        top: 200px;
+        margin: 0 100px;
+    }
+    .trip_list>li{
+        width: 80%;
+        margin: auto;
+    }
+    .trip_list>li>a .heart{
+        right: 0px;
+    }
+    #trip_page .more{
+        right: 0;
+    }
+    /*//여행*/
+    /*싱싱튜브*/
+    .youtube_list .media img:nth-child(3){
+        width: 60px;
+    }
+    #youtube_page .more{
+        margin-right: 40px;
+    }
+    /*//싱싱튜브*/
+    /*footer*/
+    footer{
+        padding: 80px 50px 0 50px;
+    }
+    .ficon{
+        right: 50px;
+    }
+    /*//footer*/
+    /*top*/
+    .top{
+        bottom: 50px;
+        right: 50px;
+    }
+    /*//top*/
+}
+
+@media screen and (min-width:850px) and (max-width:1023px){
+    body{
+        font-size: 15px;
+    }
+    /*header*/
+    header{
+        height: 120px;
+    }
+    .logo{
+        left: 50px;
+    }
+    .logo img{
+        width: 190px;
+    }
+    #h_icon{
+        right: 35px;
+    }
+    #h_icon h2 a img{
+        padding: 0 15px;
+    }
+    #menu{
+        display: none;
+    }
+    /*//header*/
+    /*sidemenu*/
+    .searchbox{
+        width: 300px;
+    }
+    .searchbox input[type="search"]{
+        width: 240px;
+    }
+    #s_menu{
+        width: 400px;
+        padding: 30px;
+    }
+    .close{
+        width: 20px;
+        height: 20px;
+    }
+    .s_menu_list{
+        margin: 50px 30px;
+    }
+    .s_menu_list>li>a{
+        padding: 10px 5px;
+    }
+    .s_menu_list>li:nth-child(2){
+        margin-bottom: 30px;
+    }
+    .s_menu_list>li:nth-child(1),
+    .s_menu_list>li:nth-child(3),
+    .s_menu_list>li:nth-child(4),
+    .s_menu_list>li:nth-child(5),
+    .s_menu_list>li:nth-child(6),
+    .s_menu_list>li:nth-child(7){
+        margin-bottom: 5px;
+    }
+    /*//sidemenu*/
+    /*메인페이지*/
+    #main_page{
+        height: auto;
+    }
+    #main_page .main_text{
+        position: static;
+        text-align: center;
+        line-height: 75px;
+        margin: 400px 0;
+        padding-left: 80px;
+        font-size: 3.33333em;
+    }
+    #main_page .main_text br{
+        display: block !important;
+    }
+    /*//메인페이지*/
+    /*배너*/
+    .banner_outer{
+        width: 850px;
+        height: 194px;
+    }
+    .banner_list{
+        width: calc(850px * 3);
+    }
+    .banner_text .title{
+        font-size: 1.66666em;
+    }
+    .banner_text .sub{
+        font-size: 1.33333em;
+    }
+    .banner .move{
+        font-size: 1em;
+    }
+    .banner:nth-child(1) .banner_text{
+        top: 60px;
+        right: 45px;
+    }
+    .banner:nth-child(1) .banner_text .title{
+        margin-bottom: 20px;
+    }
+    .banner:nth-child(1) .move{
+        width: 130px;
+        height: 44px;
+        bottom: 20px;
+        right: 20px;
+        padding-top: 16px;
+        padding-left: 14px;
+    }
+    .banner:nth-child(2) .banner_text{
+        top: 60px;
+        left: 133px;
+    }
+    .banner:nth-child(2) .banner_text .title{
+        margin-bottom: 20px;
+    }
+    .banner:nth-child(2) .move{
+        width: 180px;
+        height: 44px;
+        right: 275px;
+        bottom: 20px;
+        padding-top: 16px;
+        padding-left: 13px;
+    }
+    .banner:nth-child(3) .banner_text{
+        top: 60px;
+        left: 250px;
+    }
+    .banner:nth-child(3) .move{
+        width: 143px;
+        height: 44px;
+        bottom: 37px;
+        right: 376px;
+        padding-top: 17px;
+        padding-left: 14px;
+    }
+    .button_list{
+        width: 100px;
+        top: 107%;
+        left: 9%;
+        transform: translate(0,0);
+    }
+    .button_list .left img,
+    .button_list .right img{
+        width: 40px;
+        height: 40px;
+    }
+    /*//배너*/
+    /*md페이지*/
+    #md_page h2{
+        font-size: 3em;
+    }
+    .md_list{
+        grid-template-columns: 350px 350px;
+    }
+    .md img:nth-child(1){
+        width: 350px;
+        height: 350px;
+    }
+    .md .heart{
+        top: 305px;
+    }
+    .md .redheart{
+        top: 306px;
+    }
+    /*//md페이지*/
+    /*가이드페이지*/
+    #guidebook_page h2{
+        font-size: 3em;
+    }
+    #guidebook_page h2::before{
+        height: 240px;
+        bottom: 350px;
+    }
+    .gd{
+        margin: 0 15px;
+    }
+    .gd .text{
+        bottom: 50px;
+    }
+    .gd:nth-child(1) .text{
+        left: 15%;
+    }
+    .gd:nth-child(2) .text{
+        left: 23%;
+    }
+    .gd:nth-child(3) .text{
+        left: 25%;
+    }
+    .gd:nth-child(4) .text{
+        left: 23%;
+    }
+    .gd .title{
+        font-size: 2em;
+        line-height: 36px;
+    }
+    .gd .sub{
+        font-size: 1.33333em;
+        margin-top: 13px;
+    }
+    /*//가이드페이지*/
+    /*키워드*/
+    #hotkeyword h2{
+        font-size: 3em;
+        margin-top: 50px;
+    }
+    .keyword_list>li{
+        width: 185px;
+        margin: 20px;
+    }
+    /*//키워드*/
+    /*스토리페이지*/
+    #story_page h2{
+        font-size: 3em;
+    }
+    .storymenu_list>li{
+        padding: 5px 10px;
+    }
+    #story_page .more{
+        margin-right: 40px;
+    }
+    .story_list{
+        width: 85%;
+        flex-wrap: wrap;
+    }
+    .story_list a{
+        flex: 1 1 40%;
+        margin-bottom: 40px;
+        
+    }
+    /*//스토리페이지*/
+    #rank_trip_page{
+        display: block;
+        height: auto;
+    }
+    /*랭킹*/
+    #rank_page{
+        margin: 0 30px;
+    }
+    .rheader{
+        display: flex;
+        text-align: center;
+    }
+    .rheader h2{
+        font-size: 3em;
+    }
+    .rmain{
+        height: 860px;
+    }
+    .rank_list{
+        padding: 40px 0;
+        margin-left: 230px;
+    }
+    .rank_list a{
+        margin-left: 80px;
+    }
+    /*//랭킹*/
+    /*여행*/
+    #trip_page{
+        height: 1000px;
+        top: 200px;
+        margin: 0 100px;
+    }
+    #trip_page h2{
+        font-size: 3em;
+    }
+    .trip_list>li{
+        width: 90%;
+        margin: auto;
+    }
+    .trip_list>li>a .heart{
+        right: 0px;
+    }
+    #trip_page .more{
+        right: 0;
+    }
+    /*//여행*/
+    /*싱싱튜브*/
+    #youtube_page h2{
+        font-size: 3em;
+    }
+    .youtube_list{
+        width: 85%;
+        flex-wrap: wrap;
+    }
+    .youtube_list .ycont{
+        flex: 1 1 40%;
+        margin-bottom: 40px;
+    }
+    .youtube_list .ycont:nth-child(4){
+        display: block;
+    }
+    .youtube_list .media img:nth-child(3){
+        width: 60px;
+    }
+    #youtube_page .more{
+        margin-right: 40px;
+    }
+    /*//싱싱튜브*/
+    /*footer*/
+    footer{
+        height: 650px;
+        padding: 80px 50px 0 50px;
+    }
+    .ficon{
+        right: 50px;
+    }
+    .ficon>a{
+        padding: 0 10px;
+    }
+    .fmenu{
+        flex-wrap: wrap;
+    }
+    .fmenu>li{
+        font-size: 1.2em;
+        padding: 5px 10px;
+    }
+    /*//footer*/
+    /*top*/
+    .top{
+        bottom: 50px;
+        right: 50px;
+    }
+    /*//top*/
+}
+
+@media screen and (min-width:650px) and (max-width:849px){
+    body{
+        font-size: 14px;
+    }
+    /*header*/
+    header{
+        height: 120px;
+    }
+    .logo{
+        left: 50px;
+    }
+    .logo img{
+        width: 190px;
+    }
+    #h_icon{
+        right: 35px;
+    }
+    #h_icon h2 a img{
+        padding: 0 15px;
+    }
+    #menu{
+        display: none;
+    }
+    /*//header*/
+    /*sidemenu*/
+    .searchbox{
+        width: 300px;
+    }
+    .searchbox input[type="search"]{
+        width: 240px;
+    }
+    #s_menu{
+        width: 400px;
+        padding: 30px;
+    }
+    .close{
+        width: 20px;
+        height: 20px;
+    }
+    .s_menu_list{
+        margin: 50px 30px;
+    }
+    .s_menu_list>li>a{
+        padding: 10px 5px;
+    }
+    .s_menu_list>li:nth-child(2){
+        margin-bottom: 30px;
+    }
+    .s_menu_list>li:nth-child(1),
+    .s_menu_list>li:nth-child(3),
+    .s_menu_list>li:nth-child(4),
+    .s_menu_list>li:nth-child(5),
+    .s_menu_list>li:nth-child(6),
+    .s_menu_list>li:nth-child(7){
+        margin-bottom: 5px;
+    }
+    /*//sidemenu*/
+    /*메인페이지*/
+    #main_page{
+        height: auto;
+    }
+    #main_page .main_text{
+        position: static;
+        text-align: center;
+        line-height: 75px;
+        margin: 400px 0;
+        padding-left: 80px;
+        font-size: 2.85714em;
+    }
+    #main_page .main_text br{
+        display: block !important;
+    }
+    /*//메인페이지*/
+    /*배너*/
+    .banner_outer{
+        width: 600px;
+        height: 180px;
+    }
+    .banner_list{
+        width: calc(600px * 3);
+    }
+    .banner_text .title{
+        font-size: 1.2857em;
+    }
+    .banner_text .sub{
+        font-size: 1em;
+    }
+    .banner .move{
+        font-size: 1em;
+    }
+    .banner:nth-child(1){
+        background-image: url(../img/banner1-1.png);
+    }
+    .banner:nth-child(1) .banner_text{
+        top: 60px;
+        right: 20px;
+    }
+    .banner:nth-child(1) .banner_text .title{
+        margin-bottom: 20px;
+    }
+    .banner:nth-child(1) .move{
+        width: 112px;
+        height: 37px;
+        bottom: 20px;
+        right: 20px;
+        padding-top: 16px;
+        padding-left: 9px;
+    }
+    .banner:nth-child(2){
+        background-image: url(../img/banner2-1.png);
+    }
+    .banner:nth-child(2) .banner_text{
+        top: 60px;
+        left: 75px;
+    }
+    .banner:nth-child(2) .banner_text .title{
+        margin-bottom: 20px;
+    }
+    .banner:nth-child(2) .move{
+        width: 153px;
+        height: 37px;
+        right: 236px;
+        bottom: 20px;
+        padding-top: 16px;
+        padding-left: 7px;
+    }
+    .banner:nth-child(3){
+        background-image: url(../img/banner3-1.png);
+    }
+    .banner:nth-child(3) .banner_text{
+        top: 60px;
+        left: 190px;
+    }
+    .banner:nth-child(3) .move{
+        width: 126px;
+        height: 37px;
+        bottom: 37px;
+        right: 240px;
+        padding-top: 17px;
+        padding-left: 8px;
+    }
+    .button_list{
+        width: 100px;
+        top: 107%;
+        left: 9%;
+        transform: translate(0,0);
+    }
+    .button_list .left img,
+    .button_list .right img{
+        width: 40px;
+        height: 40px;
+    }
+    /*//배너*/
+    /*md페이지*/
+    #story_page{
+        margin-top: 150px;
+    }
+    #md_page h2{
+        font-size: 3em;
+    }
+    .md_list{
+        grid-template-columns: 300px 300px;
+    }
+    .md img:nth-child(1){
+        width: 300px;
+        height: 300px;
+    }
+    .md .heart{
+        top: 258px;
+    }
+    .md .redheart{
+        top: 259px;
+    }
+    /*//md페이지*/
+    /*가이드페이지*/
+    #guidebook_page h2{
+        font-size: 3em;
+    }
+    #guidebook_page h2::before{
+        height: 240px;
+        bottom: 350px;
+    }
+    .gd{
+        margin: 0 100px;
+    }
+    .gd .text{
+        bottom: 50px;
+    }
+    .gd:nth-child(1) .text{
+        left: 19%;
+    }
+    .gd:nth-child(2) .text{
+        left: 25%;
+    }
+    .gd:nth-child(3) .text{
+        left: 27%;
+    }
+    .gd:nth-child(4) .text{
+        left: 26%;
+    }
+    .gd .title{
+        font-size: 2em;
+        line-height: 36px;
+    }
+    .gd .sub{
+        font-size: 1.33333em;
+        margin-top: 13px;
+    }
+    /*//가이드페이지*/
+    /*키워드*/
+    #hotkeyword h2{
+        font-size: 3em;
+        margin-top: 50px;
+    }
+    .keyword_list>li{
+        width: 170px;
+        margin: 15px;
+    }
+    /*//키워드*/
+    /*스토리페이지*/
+    #story_page h2{
+        font-size: 3em;
+    }
+    .storymenu_list{
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 50px auto;
+    }
+    .storymenu_list>li{
+        padding: 5px 10px;
+    }
+    #story_page .more{
+        margin-top: 50px;
+        margin-right: 40px;
+        width: 86px;
+        height: 50px;
+        padding: 18px 6px 0 0;
+    }
+    .story_list{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .story_list a{
+        flex: 1 1 40%;
+        margin-bottom: 40px;
+        
+    }
+    /*//스토리페이지*/
+    #rank_trip_page{
+        display: block;
+        height: auto;
+        margin-top: 150px;
+    }
+    /*랭킹*/
+    #rank_page{
+        margin: 0 30px;
+    }
+    .rheader{
+        display: flex;
+        text-align: center;
+    }
+    .rheader h2{
+        font-size: 3em;
+    }
+    .rmain{
+        height: 860px;
+    }
+    .rank_list{
+        padding: 40px 0;
+        margin-left: 50px;
+    }
+    .rank_list a{
+        margin-left: 80px;
+    }
+    /*//랭킹*/
+    /*여행*/
+    #trip_page{
+        height: 930px;
+        top: 150px;
+        margin: 0 50px;
+    }
+    #trip_page h2{
+        font-size: 3em;
+    }
+    .trip_list>li{
+        width: 100%;
+        margin: auto;
+    }
+    .trip_list>li>a .heart{
+        right: 0px;
+    }
+    #trip_page .more{
+        right: 0;
+        width: 86px;
+        height: 50px;
+        padding: 19px 5px 0 0;
+    }
+    /*//여행*/
+    /*싱싱튜브*/
+    #youtube_page h2{
+        font-size: 3em;
+    }
+    .youtube_list{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .youtube_list .ycont{
+        flex: 1 1 40%;
+        margin-bottom: 40px;
+    }
+    .youtube_list .ycont:nth-child(4){
+        display: block;
+    }
+    .youtube_list .media img:nth-child(3){
+        width: 60px;
+    }
+    #youtube_page .more{
+        margin-right: 40px;
+        margin-top: 50px;
+        width: 86px;
+        height: 50px;
+        padding: 19px 5px 0 0;
+    }
+    /*//싱싱튜브*/
+    /*footer*/
+    footer{
+        height: 670px;
+        padding: 80px 50px 0 50px;
+    }
+    footer>img{
+        display: none;
+    }
+    .ficon{
+        right: 50px;
+        top: 70px;
+    }
+    .ficon>a{
+        padding: 0 10px;
+    }
+    .fmenu{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 60px 0;
+    }
+    .fmenu>li{
+        font-size: 1.2em;
+        padding: 5px 10px;
+    }
+    .info .info1 p{
+        text-align: center;
+    }
+    .info .info2 p{
+        text-align: center;
+    }
+    /*//footer*/
+    /*top*/
+    .top{
+        width: 60px;
+        height: 60px;
+        bottom: 50px;
+        right: 50px;
+        font-size: 1.14285em;
+        line-height: 33px;
+    }
+    .top img{
+        width: 40%;
+    }
+    /*//top*/
+}
+
+@media screen and (min-width:480px) and (max-width:649px){
+    body{
+        font-size: 14px;
+    }
+    /*header*/
+    header{
+        height: 120px;
+    }
+    .logo{
+        left: 50px;
+    }
+    .logo img{
+        width: 190px;
+    }
+    #h_icon{
+        right: 35px;
+    }
+    #h_icon h2 a img{
+        padding: 0 15px;
+    }
+    #menu{
+        display: none;
+    }
+    /*//header*/
+    /*sidemenu*/
+    .searchbox{
+        width: 300px;
+    }
+    .searchbox input[type="search"]{
+        width: 240px;
+    }
+    #s_menu{
+        width: 400px;
+        padding: 30px;
+    }
+    .close{
+        width: 20px;
+        height: 20px;
+    }
+    .s_menu_list{
+        margin: 50px 30px;
+    }
+    .s_menu_list>li>a{
+        padding: 10px 5px;
+    }
+    .s_menu_list>li:nth-child(2){
+        margin-bottom: 30px;
+    }
+    .s_menu_list>li:nth-child(1),
+    .s_menu_list>li:nth-child(3),
+    .s_menu_list>li:nth-child(4),
+    .s_menu_list>li:nth-child(5),
+    .s_menu_list>li:nth-child(6),
+    .s_menu_list>li:nth-child(7){
+        margin-bottom: 5px;
+    }
+    /*//sidemenu*/
+    /*메인페이지*/
+    #main_page{
+        height: auto;
+    }
+    #main_page .main_text{
+        position: static;
+        text-align: center;
+        line-height: 75px;
+        margin: 400px 0;
+        padding-left: 80px;
+        font-size: 2.85714em;
+    }
+    #main_page .main_text br{
+        display: block !important;
+    }
+    /*//메인페이지*/
+    /*배너*/
+    .banner_outer{
+        width: 600px;
+        height: 180px;
+    }
+    .banner_list{
+        width: calc(600px * 3);
+    }
+    .banner_text .title{
+        font-size: 1.2857em;
+    }
+    .banner_text .sub{
+        font-size: 1em;
+    }
+    .banner .move{
+        font-size: 1em;
+    }
+    .banner:nth-child(1){
+        background-image: url(../img/banner1-1.png);
+    }
+    .banner:nth-child(1) .banner_text{
+        top: 60px;
+        right: 20px;
+    }
+    .banner:nth-child(1) .banner_text .title{
+        margin-bottom: 20px;
+    }
+    .banner:nth-child(1) .move{
+        width: 112px;
+        height: 37px;
+        bottom: 20px;
+        right: 20px;
+        padding-top: 16px;
+        padding-left: 9px;
+    }
+    .banner:nth-child(2){
+        background-image: url(../img/banner2-1.png);
+    }
+    .banner:nth-child(2) .banner_text{
+        top: 60px;
+        left: 75px;
+    }
+    .banner:nth-child(2) .banner_text .title{
+        margin-bottom: 20px;
+    }
+    .banner:nth-child(2) .move{
+        width: 153px;
+        height: 37px;
+        right: 236px;
+        bottom: 20px;
+        padding-top: 16px;
+        padding-left: 7px;
+    }
+    .banner:nth-child(3){
+        background-image: url(../img/banner3-1.png);
+    }
+    .banner:nth-child(3) .banner_text{
+        top: 60px;
+        left: 190px;
+    }
+    .banner:nth-child(3) .move{
+        width: 126px;
+        height: 37px;
+        bottom: 37px;
+        right: 240px;
+        padding-top: 17px;
+        padding-left: 8px;
+    }
+    .button_list{
+        width: 100px;
+        top: 107%;
+        left: 9%;
+        transform: translate(0,0);
+    }
+    .button_list .left img,
+    .button_list .right img{
+        width: 40px;
+        height: 40px;
+    }
+    /*//배너*/
+    /*md페이지*/
+    #story_page{
+        margin-top: 150px;
+    }
+    #md_page h2{
+        font-size: 3em;
+    }
+    .md_list{
+        grid-template-columns: 300px 300px;
+    }
+    .md img:nth-child(1){
+        width: 300px;
+        height: 300px;
+    }
+    .md .heart{
+        top: 258px;
+    }
+    .md .redheart{
+        top: 259px;
+    }
+    /*//md페이지*/
+    /*가이드페이지*/
+    #guidebook_page h2{
+        font-size: 3em;
+    }
+    #guidebook_page h2::before{
+        height: 240px;
+        bottom: 350px;
+    }
+    .gd{
+        margin: 0 100px;
+    }
+    .gd .text{
+        bottom: 50px;
+    }
+    .gd:nth-child(1) .text{
+        left: 19%;
+    }
+    .gd:nth-child(2) .text{
+        left: 25%;
+    }
+    .gd:nth-child(3) .text{
+        left: 27%;
+    }
+    .gd:nth-child(4) .text{
+        left: 26%;
+    }
+    .gd .title{
+        font-size: 2em;
+        line-height: 36px;
+    }
+    .gd .sub{
+        font-size: 1.33333em;
+        margin-top: 13px;
+    }
+    /*//가이드페이지*/
+    /*키워드*/
+    #hotkeyword h2{
+        font-size: 3em;
+        margin-top: 50px;
+    }
+    .keyword_list>li{
+        width: 170px;
+        margin: 15px;
+    }
+    /*//키워드*/
+    /*스토리페이지*/
+    #story_page h2{
+        font-size: 3em;
+    }
+    .storymenu_list{
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 50px auto;
+    }
+    .storymenu_list>li{
+        padding: 5px 10px;
+    }
+    #story_page .more{
+        margin-top: 50px;
+        margin-right: 40px;
+        width: 86px;
+        height: 50px;
+        padding: 18px 6px 0 0;
+    }
+    .story_list{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .story_list a{
+        flex: 1 1 40%;
+        margin-bottom: 40px;
+        
+    }
+    /*//스토리페이지*/
+    #rank_trip_page{
+        display: block;
+        height: auto;
+        margin-top: 150px;
+    }
+    /*랭킹*/
+    #rank_page{
+        margin: 0 30px;
+    }
+    .rheader{
+        display: flex;
+        text-align: center;
+    }
+    .rheader h2{
+        font-size: 3em;
+    }
+    .rmain{
+        height: 860px;
+    }
+    .rank_list{
+        padding: 40px 0;
+        margin-left: 50px;
+    }
+    .rank_list a{
+        margin-left: 80px;
+    }
+    /*//랭킹*/
+    /*여행*/
+    #trip_page{
+        height: 930px;
+        top: 150px;
+        margin: 0 50px;
+    }
+    #trip_page h2{
+        font-size: 3em;
+    }
+    .trip_list>li{
+        width: 100%;
+        margin: auto;
+    }
+    .trip_list>li>a .heart{
+        right: 0px;
+    }
+    #trip_page .more{
+        right: 0;
+        width: 86px;
+        height: 50px;
+        padding: 19px 5px 0 0;
+    }
+    /*//여행*/
+    /*싱싱튜브*/
+    #youtube_page h2{
+        font-size: 3em;
+    }
+    .youtube_list{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .youtube_list .ycont{
+        flex: 1 1 40%;
+        margin-bottom: 40px;
+    }
+    .youtube_list .ycont:nth-child(4){
+        display: block;
+    }
+    .youtube_list .media img:nth-child(3){
+        width: 60px;
+    }
+    #youtube_page .more{
+        margin-right: 40px;
+        margin-top: 50px;
+        width: 86px;
+        height: 50px;
+        padding: 19px 5px 0 0;
+    }
+    /*//싱싱튜브*/
+    /*footer*/
+    footer{
+        height: 670px;
+        padding: 80px 50px 0 50px;
+    }
+    footer>img{
+        display: none;
+    }
+    .ficon{
+        right: 50px;
+        top: 70px;
+    }
+    .ficon>a{
+        padding: 0 10px;
+    }
+    .fmenu{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 60px 0;
+    }
+    .fmenu>li{
+        font-size: 1.2em;
+        padding: 5px 10px;
+    }
+    .info .info1 p{
+        text-align: center;
+    }
+    .info .info2 p{
+        text-align: center;
+    }
+    /*//footer*/
+    /*top*/
+    .top{
+        width: 60px;
+        height: 60px;
+        bottom: 50px;
+        right: 50px;
+        font-size: 1.14285em;
+        line-height: 33px;
+    }
+    .top img{
+        width: 40%;
+    }
+    /*//top*/
+}
