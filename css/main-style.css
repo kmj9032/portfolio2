@@ -51,7 +51,7 @@ body{
 /* header */
 header{
     width: 100%;
-    height: 140px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -90,7 +90,6 @@ header{
     color: #F2EADF;
     font-weight: 500;
 }
-
 /* //main_menu */
 
 /* header_icon */
@@ -99,45 +98,44 @@ header{
     align-items: end;
     position: absolute;
     bottom: 18px;
-    right: 100px;
+    right: 85px;
 }
 #h_icon h2 a img{
-    padding: 0 20px;
+    padding: 0 15px;
 }
 /* //header_icon */
 
 /* side_menu */
 #s_menu{
-    width: 480px;
-    height: 1080px;
+    width: 450px;
+    height: 100vh;
     background-color: #2B4016;
-    padding: 50px;
+    padding: 50px 50px 0 50px;
     position: fixed;
     top: 0;
-    right: -480px;
+    right: -450px;
     z-index: 99;
     overflow: hidden;
 }
 .close{
     float: right;
-    width: 28px;
-    height: 28px;
+    width: 21px;
 }
 /* 검색 */
 .searchbox{
-    width: 340px;
-    height: 50px;
+    width: 350px;
+    height: 40px;
     background-color: #fff;
     border-radius: 10px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .searchbox input[type="search"]{
     width: 280px;
-    height: 30px;
+    height: 20px;
     font-size: 1.125em;
     background-color: #fff;
     border: none;
@@ -166,7 +164,7 @@ input::-webkit-search-results-decoration{
 }
 /* //검색 */
 .s_menu_list{
-    margin: 70px 30px;
+    margin: 70px 0;
 }
 .s_menu_list>li>a{
     font-family: 'SUIT-Regular';
@@ -174,6 +172,7 @@ input::-webkit-search-results-decoration{
     font-size: 1.375em;
     color: #fff;
     padding: 10px 20px;
+    width: 200px;
 }
 .s_menu_list>li:nth-child(2){
     margin-bottom: 50px;
@@ -192,8 +191,6 @@ input::-webkit-search-results-decoration{
 }
 .s_menu_list2{
     margin-left: 120px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 .s_menu_list2>li>a{
     font-family: 'SUIT-Regular';
@@ -201,6 +198,7 @@ input::-webkit-search-results-decoration{
     font-size: 1.375em;
     color: #e4e4e4;
     padding: 10px 20px;
+    width: 200px;
 }
 .s_menu_list2>li>a:hover{
     background-color: #5B714F;
@@ -212,7 +210,7 @@ input::-webkit-search-results-decoration{
 /* 메인페이지 */
 #main_page{
     width: 100%;
-    height: 1080px;
+    height: 100vh;
     background-image: url(../img/mainbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -228,8 +226,9 @@ input::-webkit-search-results-decoration{
     font-size: 3.875em;
     color: #2B4016;
     position: absolute;
-    top: 415px;
-    right: 155px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 160px;
 }
 #main_page .main_text br{
     display: none !important;
@@ -403,32 +402,31 @@ input::-webkit-search-results-decoration{
 .md_list{
     display: grid;
     justify-content: center;
-    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 40px;
     row-gap: 80px;
-    margin: 100px 0;
+    margin: 100px;
 }
-.md{
+.md .md_img{
     position: relative;
     top: 0;
 }
-.md img:nth-child(1){
+.md .md_img img:nth-child(1){
     width: 100%;
 }
 .md .heart{
     position: absolute;
-    top: 360px;
+    bottom: 20px;
     right: 20px;
     z-index: 97;
 }
 .md .redheart{
     position: absolute;
-    top: 361px;
+    bottom: 21px;
     right: 21px;
     z-index: 96;
     opacity: 0;
 }
-
 .md dl .title{
     font-family: 'SUIT-Regular';
     font-weight: 600;
@@ -465,7 +463,7 @@ input::-webkit-search-results-decoration{
     overflow: hidden;
     position: relative;
     top: 0px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 #guidebook_page h2::before{
     content: '';
@@ -499,20 +497,21 @@ input::-webkit-search-results-decoration{
 }
 .gd .text{
     position: absolute;
+    left: 0;
     bottom: 75px;
     text-align: center;
 }
 .gd:nth-child(1) .text{
-    left: 15%;
+    transform: translateX(20%);
 }
 .gd:nth-child(2) .text{
-    left: 23%;
+    transform: translateX(40%);
 }
 .gd:nth-child(3) .text{
-    left: 25%;
+    transform: translateX(42%);
 }
 .gd:nth-child(4) .text{
-    left: 23%;
+    transform: translateX(40%);
 }
 .gd .title{
     font-family: 'PuradakGentleGothicR';
@@ -605,7 +604,7 @@ input::-webkit-search-results-decoration{
     font-weight: 600;
 }
 .story_list{
-    width: 95%;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -711,7 +710,7 @@ input::-webkit-search-results-decoration{
 /*랭킹/여행*/
 #rank_trip_page{
     width: 100%;
-    height: 950px;
+    height: 90vh;
     margin-top: 250px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -800,13 +799,12 @@ input::-webkit-search-results-decoration{
     border: 3px solid #101010;
     border-radius: 20px;
 }
-
 /*//랭킹*/
 /*여행*/
 #trip_page{
     position: relative;
     top: 0;
-    margin: 0 60px;
+    margin: 0 100px;
 }
 #trip_page h2{
     font-family: 'PuradakGentleGothicR';
@@ -820,7 +818,6 @@ input::-webkit-search-results-decoration{
 }
 .trip_list>li{
     padding: 40px 0;
-    width: 90%;
 }
 .trip_list>li>a{
     display: flex;
@@ -876,7 +873,7 @@ input::-webkit-search-results-decoration{
     text-align: center;
     padding: 23px 6px 0 0;
     position: absolute;
-    right: 40px;
+    right: 0;
     bottom: 30px;
 }
 /*//여행*/
@@ -969,7 +966,6 @@ footer{
 }
 footer>img{
     width: 220px;
-    height: 40px;
 }
 .ficon{
     display: flex;
@@ -991,7 +987,7 @@ footer>img{
     font-weight: 500;
     color: #fff;
 }
-.fmenu>li:nth-child(2){
+.fmenu>li:nth-child(1){
     padding: 0;
 }
 .info .info1{
@@ -1027,8 +1023,8 @@ footer>img{
     border-radius: 50%;
     background-color: #2B4016;
     position: fixed;
-    bottom: 80px;
-    right: 80px;
+    bottom: 60px;
+    right: 60px;
     font-family: 'PuradakGentleGothicR';
     font-size: 1.5625em;
     color: #F2EADF;

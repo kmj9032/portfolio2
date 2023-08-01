@@ -112,8 +112,7 @@
 {
     content: '←';
 }
-
-@media screen and (min-width:850px) and (max-width:1023px){
+@media screen and (min-width:1024px) and (max-width:1179px){
     .slick-prev
     {
         left: -80px;
@@ -123,14 +122,88 @@
         right: -80px;
     }
 }
-@media screen and (min-width:480px) and (max-width:849px){
+@media screen and (min-width:850px) and (max-width:1023px){
     .slick-prev
     {
-        left: -60px;
+        left: -70px;
     }
     .slick-next
     {
-        right: -60px;
+        right: -70px;
+    }
+}
+@media screen and (min-width:750px) and (max-width:849px){
+    .slick-prev
+    {
+        left: -50px;
+    }
+    .slick-next
+    {
+        right: -50px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:749px){
+    .slick-prev
+    {
+        left: -20px;
+    }
+    .slick-next
+    {
+        right: -20px;
+    }
+}
+@media screen and (min-width:450px) and (max-width:590px){
+    .slick-prev:before
+    {
+        content: url(../icon/left1.svg);
+    }
+    .slick-next:before
+    {
+        content: url(../icon/right1.svg);
+    }
+    .slick-prev
+    {
+        left: -20px;
+    }
+    .slick-next
+    {
+        right: -20px;
+    }
+}
+@media screen and (min-width:380px) and (max-width:449px){
+    .slick-prev:before
+    {
+        content: url(../icon/left1.svg);
+    }
+    .slick-next:before
+    {
+        content: url(../icon/right1.svg);
+    }
+    .slick-prev
+    {
+        left: -20px;
+    }
+    .slick-next
+    {
+        right: -20px;
+    }
+}
+@media screen and (max-width:379px){
+    .slick-prev:before
+    {
+        content: url(../icon/left1.svg);
+    }
+    .slick-next:before
+    {
+        content: url(../icon/right1.svg);
+    }
+    .slick-prev
+    {
+        left: -20px;
+    }
+    .slick-next
+    {
+        right: -20px;
     }
 }
 

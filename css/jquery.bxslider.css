@@ -37,6 +37,11 @@ ul.bxslider {
   background: #fff;
   margin: 150px 0;
 }
+@media screen and (min-width:1240px) and (max-width:1399px){
+  .bx-wrapper{
+    margin: 120px 0;
+  }
+}
 @media screen and (min-width:1024px) and (max-width:1239px){
   .bx-wrapper{
     margin: 120px 0;
