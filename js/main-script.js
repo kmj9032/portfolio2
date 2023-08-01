@@ -3,7 +3,7 @@ $("#h_icon:nth-child(3)").click(function(){
     $("#s_menu").stop(true).animate({right:'0'},800);
 });
 $("#s_menu .close").click(function(){
-    $("#s_menu").stop(true).animate({right:'-480px'},800);
+    $("#s_menu").stop(true).animate({right:'-450px'},800);
 });
 
 // 스크롤시 메뉴 색 변경
