@@ -531,6 +531,7 @@
     /*footer*/
     footer{
         padding: 80px 100px 0 100px;
+        height: 650px;
     }
     .ficon{
         right: 100px;
@@ -780,6 +781,7 @@
     /*footer*/
     footer{
         padding: 80px 50px 0 50px;
+        height: 650px;
     }
     .ficon{
         right: 50px;
@@ -1898,7 +1900,7 @@
     /*//싱싱튜브*/
     /*footer*/
     footer{
-        height: 720px;
+        height: 750px;
         padding: 80px 50px 0 50px;
     }
     footer>img{
@@ -2903,7 +2905,7 @@
     /*//싱싱튜브*/
     /*footer*/
     footer{
-        height: 610px;
+        height: 680px;
         padding: 30px 15px 0 15px;
     }
     footer>img{
@@ -3407,7 +3409,7 @@
     /*//싱싱튜브*/
     /*footer*/
     footer{
-        height: 610px;
+        height: 685px;
         padding: 30px 15px 0 15px;
     }
     footer>img{
@@ -3436,6 +3438,7 @@
     .info .info1 p{
         margin-bottom: 10px;
         line-height: 22px;
+        font-size: 1em;
     }
     .info .info2{
         text-align: center;
@@ -3443,6 +3446,7 @@
     .info .info2 p{
         flex-direction: column;
         line-height: 22px;
+        font-size: 1em;
     }
     .info .info2 p a{
         padding: 5px 0;
